@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/buttonmugalimder"
+        android:layout_width="406dp"
+        android:layout_height="49dp"
+        android:text="Mugalimder"
+         />
+
+
+
+    <Button
+        android:id="@+id/buttonnews"
+        android:layout_width="405dp"
+        android:layout_height="52dp"
+        android:text="News"
+         />
+
+    <Button
+        android:id="@+id/buttonregistration"
+        android:layout_width="406dp"
+        android:layout_height="57dp"
+        android:text="Registration"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/buttonregistrMugalim"
+        android:layout_width="410dp"
+        android:layout_height="46dp"
+        android:text="Registration mugalim"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="356dp" />
+    <Button
+        android:id="@+id/Zhinalystar"
+        android:layout_width="410dp"
+        android:layout_height="46dp"
+        android:text="Zhinalys Engizu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="356dp" />
+    <Button
+        android:id="@+id/Kezekshilik"
+        android:layout_width="410dp"
+        android:layout_height="46dp"
+        android:text="Kezekshiler Engizu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="356dp" />
+    <Button
+        android:id="@+id/tulekteradd"
+        android:layout_width="410dp"
+        android:layout_height="46dp"
+        android:text="Tulekter Engizu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+</LinearLayout>
